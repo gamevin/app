@@ -201,7 +201,7 @@ Must approve VIN first (if needed)
 
 Result and history pulled from events
 
-8.4 Dice — Advanced Betting Controls ✅ (Mới thêm vào)
+8.4 Dice — Advanced Betting Controls
 
 To provide a fast betting experience similar to professional gambling dApps, the Dice Screen includes utility betting buttons.
 
