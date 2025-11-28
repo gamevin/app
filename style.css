@@ -1060,3 +1060,56 @@ body {
     font-size: 0.85rem;
   }
 }
+/* =========================
+   Fix Nav on small screens (MetaMask mobile)
+   ========================= */
+
+@media (max-width: 480px) {
+
+  .top-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.8rem 0.7rem;
+  }
+
+  .nav-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    order: 3;
+    margin-top: 0.4rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.3rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.45rem 1rem;
+    width: 30%;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  .nav-right {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.4rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .brand {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+  }
+}
